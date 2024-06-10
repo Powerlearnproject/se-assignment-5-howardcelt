@@ -1,0 +1,121 @@
+\\ VISUAL STUDIO INSTALLATION ON Windows
+1 Quick Preview to Install Visual Studio Code on Windows:
+2 Download the VS Code file from the Official Website.
+3 Execute the download file.
+4 Accept the Terms & Conditions.
+5 Click on the Install button.
+6 Wait for the installation to complete.
+7 Click on the Launch button to start it.
+
+\\ VS CODE EXTENSION
+
+The Settings Sync extension allows developers 
+to sync snippets, settings, themes, 
+key bindings, and file icons across various machines
+ while working on a development project.
+ It uses GitHub Gists to facilitate these services.
+  You can find more details on configuring Github 
+with Settings Sync in their documentation
+
+\\VISUAL STUDIO USER INTERFACE
+
+At its heart, Visual Studio Code is a code editor.
+ Like many other code editors, 
+ VS Code adopts a common user interface and layout of an explorer 
+ on the left, showing all of the files and folders you have access to, 
+ and an editor on the right,  
+showing the content of the files you have opened
+
+*The user interface is divided into five main areas:
+
+Editor : The main area to edit your files. You can open as many editors as you like side by side vertically and horizontally.
+
+Primary Side Bar : Contains different views like the Explorer to assist you while working on your project.
+
+Status Bar :Information about the opened project and the files you edit.
+
+Activity Bar: Located on the far left-hand side. Lets you switch between views and gives you additional context-specific indicators, 
+like the number of outgoing changes when Git is enabled. You can change the position of the Activity Bar.
+
+Panel : An additional space for views below the editor region. By default, it contains output, 
+debug information, errors and warnings, and an integrated terminal.
+ The Panel can also be moved to the left or right for more vertical space.
+
+ \\COMMAND PALLATE
+ The Command Palette provides access to many commands. You can run editor commands,
+  open files, search for symbols, 
+ and see a quick outline of a file, all using the same interactive window.
+  Here are a few tips: Ctrl+P enables you to navigate to any file or symbol by typing its name.
+
+  \\EXTENSION IN VS CODE
+
+  VS Code extensions let you add languages, debuggers,
+   and tools to your installation to support your development workflow.
+    VS Code's rich extensibility model lets extension authors plug directly into the VS Code UI and  
+  contribute functionality through the same APIs used by VS Code.
+
+  \\INTEGRATED TERMINAL 
+
+Click on the "View" option in the menu bar at the top of the window.
+ Select "Terminal" from the dropdown list, or press Ctrl + ` (backtick) on your keyboard.
+Open the Command Palette by pressing F1 or Ctrl + Shift + P 
+
+* TO OEPN A file
+Open Visual Studio Code.
+Press command + shift + p to open the command palette, then type "install code", and then click Shell command: Install 'code' command in PATH.
+In your terminal, type code YOUR_FILENAME` to open that file in VS Code.
+
+\\FILE FOLDER MANAGEMENT
+
+OPEN FILE
+Press ctrl+shift+p to open command panel and type Create File or Create Folder .
+ Right click on Explorer Window and click Create File or Create Folder
+
+NAVIGATEION 
+VS Code provides two powerful commands to navigate in and across files with easy-to-use key bindings. 
+Hold Ctrl and press Tab to view a list of all files open in an editor group. To open one of these files, 
+use Tab again to pick the file you want to navigate to, then release Ctrl to open it.
+
+\\SETTTINGS AND PREFERENCES
+
+Use the Settings editor to review and change VS Code settings. To open the Settings editor, navigate to File > Preferences > Settings.
+ Alternately, 
+open the Settings editor from the Command Palette (Ctrl+Shift+P) with Preferences: Open Settings or use the keyboard shortcut (Ctrl+,).
+
+\\DEBUGGING IN VS CODE
+
+To run or debug a simple app in VS Code, select Run and Debug on the Debug start view or press F5 
+and VS Code will try to run your currently active file. However, for most debugging scenarios,
+ creating a launch configuration file is beneficial because it allows you to configure and save debugging setup details.
+
+ \\CONTROL SOURCE
+ Source control (or version control) is the practice of tracking and managing changes to code.
+  Source control management (SCM) systems provide a running history of code development 
+ and help to resolve conflicts when merging contributions from multiple sources.
+
+ * INTIATING A repository and COMMITS
+ Initializing a Git repository
+Open Terminal .
+Navigate to the root directory of your project.
+Initialize the local directory as a Git repository. By default, the initial branch is called main .
+Add the files in your new local repository. 
+Commit the files that you've staged in your local repositor
+
+or
+
+Using Command line to PUSH to GitHub
+Initialize the git repository.
+Commit the files staged in your local repository by writing a commit message.
+Copy your remote repository's URL from GitHub.
+Publish branch in GitHub Desktop to upload your all files to GitHub.
+
+To push your local changes to the remote repository, in the repository bar, 
+click Push origin. If there are commits on the remote branch that you don't have on your local branch,
+ GitHub Desktop prompts you to fetch new commits from the remote.
+ In the "New Commits on Remote" window, click Fetch.
+
+
+ \\references
+
+ https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories
+ https://www.geeksforgeeks.org/pushing-changes-to-a-git-repository/
